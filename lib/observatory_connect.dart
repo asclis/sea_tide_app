@@ -52,7 +52,7 @@ double _degreesToRadians(double degrees) {
 }
 
 void main() {
-  // Sample data for observation stations
+  // Sample data for observation stationsㅇ
   List<ObservationStation> stations = [
     ObservationStation('SO_0732', '남애항', 37.944, 128.788),
     ObservationStation('SO_0733', '강릉항', 37.772, 128.951),
@@ -61,7 +61,7 @@ void main() {
 
   // User's GPS coordinates
   double userLatitude = longitude;
-  double userLongitude = -122.789;
+  double userLongitude = -122.789;ㅎㅇㄴㄹ ㅎㅇㄹ
 
   // Find the nearest observation station
   ObservationStation? nearestStation = findNearestObservationStation(userLatitude, userLongitude, stations);
