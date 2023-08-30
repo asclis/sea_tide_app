@@ -83,26 +83,27 @@ class _sea_tide_appState extends State<sea_tide_app> {
       });
     }
   }
-  _getTideTable(context);
 }
 
-void _getTideTable(BuildContext context) async {
+//void _getTideTable(BuildContext context) async {
 
-  final url = 'https://api.example.com/tide-table?lat=${position.latitude}&lng=${position.longitude}';
-  final response = await http.get(Uri.parse(url));
+  //final url = 'https://api.example.com/tide-table?lat=${position.latitude}&lng=${position.longitude}';
+  //final response = await http.get(Uri.parse(url));
 
-  if (response.statusCode == 200) {
+  //if (response.statusCode == 200) {
     // Parse the tide table data from the response and display it in the app.
     // You may need to use a JSON decoding library like the built-in `jsonDecode()` function or the `dart:convert` package.
-  } else {
+  //} else {
     // Handle the case when the API request fails.
-  }
+  //}
 
   // Use the position object to fetch the tide table data.
-}
+//}
 
 
-}
+
+ // observatory_connect.dart 추가 작업
+
 
 
 
